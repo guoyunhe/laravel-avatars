@@ -2,9 +2,9 @@
 
 namespace GuoYunhe\LaravelAvatars;
 
+use GuoYunhe\LaravelAvatars\Commands\LaravelAvatarsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GuoYunhe\LaravelAvatars\Commands\LaravelAvatarsCommand;
 
 class LaravelAvatarsServiceProvider extends PackageServiceProvider
 {

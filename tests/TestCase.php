@@ -2,9 +2,9 @@
 
 namespace GuoYunhe\LaravelAvatars\Tests;
 
+use GuoYunhe\LaravelAvatars\LaravelAvatarsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GuoYunhe\LaravelAvatars\LaravelAvatarsServiceProvider;
 
 class TestCase extends Orchestra
 {

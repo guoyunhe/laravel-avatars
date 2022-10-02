@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "guoyunhe/laravel-avatars",
+    "description": " Laravel package for uploading avatars",
     "keywords": [
-        ":vendor_name",
+        "guoyunhe",
         "laravel",
-        ":package_slug"
+        "laravel-avatars"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/guoyunhe/laravel-avatars",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Guo Yunhe",
+            "email": "i@guoyunhe.me",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "GuoYunhe\\LaravelAvatars\\": "src",
+            "GuoYunhe\\LaravelAvatars\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "GuoYunhe\\LaravelAvatars\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,15 +51,19 @@
         "format": "vendor/bin/pint"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "GuoYunhe\\LaravelAvatars\\LaravelAvatarsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelAvatars": "GuoYunhe\\LaravelAvatars\\Facades\\LaravelAvatars"
             }
         }
     },

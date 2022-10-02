@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GuoYunhe\LaravelAvatars\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelAvatarsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-avatars';
 
     public $description = 'My command';
 
